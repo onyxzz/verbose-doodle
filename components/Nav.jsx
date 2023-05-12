@@ -31,7 +31,6 @@ const Nav = () => {
         <p className="logo_text">Verbose Doodle</p>
       </Link>
 
-      {/* Desktop Navigation */}
       <div className="sm:flex hidden">
         {session?.user ? (
           <div className="flex gap-3 md:gap-5">
@@ -72,7 +71,6 @@ const Nav = () => {
         )}
       </div>
 
-      {/* Mobile Navigation */}
       <div className="sm:hidden flex relative">
         {session?.user ? (
           <div className="flex">
